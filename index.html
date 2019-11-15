@@ -3,56 +3,179 @@
 <head>
     <title>Juniette Fiore</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    
 </head>
+
 <body>
-    <header>
-        <div>Juniette Fiore</div>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="web.html">Plants</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Portfolio</h1>
-        <p>
-            <figure>
-                <img src="images/profilephoto.png" alt="Profile Photo" width="100">
-                <figcaption>Profile Photo</figcaption>
-            </figure>
-            Juniette Fiore is a graduate student at the <a href="http://miami.edu" target="_blank">University of Miami</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at semper metus. Donec rhoncus, quam ac aliquet aliquet, est sem molestie sapien, at porta augue orci vitae metus. Mauris consequat, leo eget imperdiet aliquam, lectus enim aliquet nisi, non accumsan diam mi eu est. Nam sit amet dui tempor, maximus turpis id, pellentesque mauris. Fusce convallis non ante ut fermentum. Phasellus hendrerit mi a nisi ultrices rutrum. Maecenas malesuada lacus diam, quis commodo nulla consectetur vitae. Integer a rutrum risus. Nam lobortis accumsan diam, vel feugiat sapien tristique ut. Pellentesque sit amet imperdiet sem. Praesent tristique lorem auctor, egestas ante non, eleifend quam. 
-        </p>
-        <h2>Life Story</h2>
-        <p>This is another paragraph.
-            <aside>
-                <h3>Hobbies</h3>
-                This is a paragraph about hobbies.
-            </aside>
-        </p>
 
-        <p>
-            <ul>
-                <li>Apples</li>
-                <li>Oranges</li>
-                <li>Pears</li>
-                <li>Kiwi</li>
-            </ul>
+    <!-- Navigation Bar -->
 
-            <ol>
-                <li>Spinach</li>
-                <li>Kale</li>
-                <li>Broccoli</li>
-                <li>Celery</li>
-            </ol>
-        </p>
-    </main>
-    <footer>This is a footer. Contact info. Social media.</footer>
+<nav class ="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="homepage.html">Work</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li> -->
+                </ul>       
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+        
+            </div>
+    </div>
+</nav>
+<!-- End Navigation Bar -->
 
 
 
-</html>
+<!-- Cards with images -->
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+                <!-- Project 1 -->
+           <a href="project1.html"> <img class="card-img-top" src="images/beegreen-coverphoto.jpg" alt="Card image cap">
+          </a>
+            <div class="card-body">
+              <p class="link"><a href="project1.html"><strong>BeeGreen Mobile Application</strong></a></p>
+             
+              <p class="card-text" style="font-size:small; color:#93959b;">UX/UI</p>
+              <hr>
+              <p class="card-text" style="font-size:small;">BeeGreen is a social mobile app that encourages behavior change in terms of climate change.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Project 1 -->
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+                <a href="#!"> <img class="card-img-top" src="images/soon-green.jpg" alt="Card image cap">
+                </a>
+                <div class="card-body">
+                        <p class="link"><a href="project1.html"><strong>Storytelling Prototype</strong></a></p>
+                       
+                        <p class="card-text" style="font-size:small; color:#93959b;">VR/AR</p>
+                        <hr>
+                        <p class="card-text" style="font-size:small;">Storytelling Prototype is a VR/AR environment for children with autism.</p>
+                      </div>
+                    </div>
+                  </div>
+
+         <!-- End Project 2 -->
+
+         <!-- Project 3 -->
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+                <a href="#!"> <img class="card-img-top" src="images/soon-blue.jpg" alt="Card image cap">
+                </a>
+                   <div class="card-body">
+              <p class="link"><a href="project1.html"><strong>Little Bits Prototype</strong></a></p>
+             
+              <p class="card-text" style="font-size:small; color:#93959b;">Physical Computing</p>
+              <hr>
+              <p class="card-text" style="font-size:small;">Using Little Bits, I created an installation/game for the public setting.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Project 3 -->
+
+        <!-- Project 4 -->
+
+        <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                      <a href="#!"> <img class="card-img-top" src="images/soon-grey.jpg" alt="Card image cap">
+                      </a>
+                         <div class="card-body">
+                    <p class="link"><a href="project1.html"><strong>Coming Soon</strong></a></p>
+                   
+                    <p class="card-text" style="font-size:small; color:#93959b;">UX/UI</p>
+                    <hr>
+                    <p class="card-text" style="font-size:small;">This is a quick description of this project. Click for more information.</p>
+                  </div>
+                </div>
+              </div>
+
+        <!-- End Project 4 -->
+
+        <!-- Project 5 -->
+
+        <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                      <a href="#!"> <img class="card-img-top" src="images/soon-grey.jpg" alt="Card image cap">
+                      </a>
+                         <div class="card-body">
+                    <p class="link"><a href="project1.html"><strong>Coming Soon</strong></a></p>
+                   
+                    <p class="card-text" style="font-size:small; color:#93959b;">UX/UI</p>
+                    <hr>
+                    <p class="card-text" style="font-size:small;">This is a quick description of this project. Click for more information.</p>
+                  </div>
+                </div>
+              </div>
+
+        <!-- End Project 5 -->
+
+        <!-- Project 6 -->
+
+        <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                      <a href="#!"> <img class="card-img-top" src="images/soon-grey.jpg" alt="Card image cap">
+                      </a>
+                         <div class="card-body">
+                    <p class="link"><a href="project1.html"><strong>Coming Soon</strong></a></p>
+                   
+                    <p class="card-text" style="font-size:small; color:#93959b;">UX/UI</p>
+                    <hr>
+                    <p class="card-text" style="font-size:small;">This is a quick description of this project. Click for more information.</p>
+                  </div>
+                </div>
+              </div>
+
+        <!-- End Project 6 -->
+              
+            
+
+
+
+  <!-- End Cards with Images -->
+
+
+  
+<!-- Footer -->
+
+<footer class="footer bg-light ">
+      
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+<!-- End Footer -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+
+
+  </body>
+
+  </html>
